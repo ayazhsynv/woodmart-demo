@@ -1,0 +1,56 @@
+header {
+    background-color: $secondary_color;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 250px;
+    }
+
+    .header_icons {
+        i {
+            display: block;
+            font-size: 2rem;
+            color: $light_grey;
+            margin: 2px;
+        }
+    }
+    .col-6, .col-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .support, .cart {
+            flex-basis: 45%;
+            padding : 0.5rem;
+
+        }
+    }
+
+    input {
+        padding: 1rem;
+        border: 0.5px solid $light_grey;
+        width: 60%;
+        outline: none;
+        color: $light_grey;
+    }
+    select {
+        padding: 1rem;
+        border: 0.5px solid $light_grey;
+        width: 35%;
+        outline: none;
+        color: $light_grey;
+        
+    }
+
+    button {
+        // padding: 1rem;
+        border: 0.5px solid $light_grey;
+        background-color: $primary_color;
+        color: #fff;
+        cursor: pointer;
+        width: 8%;
+        height: 100%;
+        font-size: 1.25rem;
+    }
+}

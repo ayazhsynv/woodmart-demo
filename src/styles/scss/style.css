@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #CDCDCD;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #548063;
+}
+
+header {
+  background-color: #F7F7F7;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 250px;
+}
+header .header_icons i {
+  display: block;
+  font-size: 2rem;
+  color: #CDCDCD;
+  margin: 2px;
+}
+header .col-6, header .col-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .col-6 .support, header .col-6 .cart, header .col-3 .support, header .col-3 .cart {
+  flex-basis: 45%;
+  padding: 0.5rem;
+}
+header input {
+  padding: 1rem;
+  border: 0.5px solid #CDCDCD;
+  width: 60%;
+  outline: none;
+  color: #CDCDCD;
+}
+header select {
+  padding: 1rem;
+  border: 0.5px solid #CDCDCD;
+  width: 35%;
+  outline: none;
+  color: #CDCDCD;
+}
+header button {
+  border: 0.5px solid #CDCDCD;
+  background-color: #548063;
+  color: #fff;
+  cursor: pointer;
+  width: 8%;
+  height: 100%;
+  font-size: 1.25rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: #F7F7F7;
+}
+nav .col-3 {
+  display: flex;
+  align-items: center;
+  background-color: #548063;
+  padding: 1rem;
+  word-spacing: 5px;
+}
+nav .col-5, nav .col-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+  word-spacing: 5px;
+}
+nav .col-5 ul, nav .col-4 ul {
+  display: flex;
+  list-style: none;
+}
+nav .col-5 ul li, nav .col-4 ul li {
+  margin-right: 1rem;
+}
+nav .col-5 ul li a, nav .col-4 ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+nav .col-5 ul li a:hover, nav .col-4 ul li a:hover {
+  color: #548063;
+}
+
+.collage .container .row {
+  display: flex;
+}
+.collage .container .row img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.collage .container .row .col-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.collage .container .row .col-5 .lighting {
+  flex-basis: 50%;
+}
+.collage .container .row .col-5 .working {
+  flex-basis: 50%;
+}
+.collage .container .row .col-7 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.collage .container .row .col-7 .v-reality {
+  flex-basis: 65%;
+}
+.collage .container .row .col-7 .wooden {
+  flex-basis: 35%;
+}
+
+.new_arrivals {
+  margin: 5rem 0;
+}
+.new_arrivals .row {
+  text-align: center;
+  line-height: 1.5rem;
+}
+.new_arrivals .row h1 {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.new_arrivals .row img {
+  width: 100%;
+  height: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cards {
+  padding: 1rem;
+  width: 100%;
+  height: 100px;
+}
+.cards img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.best_offers {
+  margin: 25rem 0 5rem 0;
+}
+.best_offers .row {
+  text-align: center;
+  line-height: 1.5rem;
+}
+.best_offers .row h1 {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.best_offers .row img {
+  width: 100%;
+  height: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bike img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

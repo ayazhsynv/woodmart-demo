@@ -1,0 +1,16 @@
+.best_offers {
+    margin: 25rem 0 5rem 0;
+    .row{
+        h1 {
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+        img {
+            width: 100%;
+            height: 75%;
+            object-fit: cover;
+        }
+        text-align: center;
+        line-height: 1.5rem;
+    }
+}
